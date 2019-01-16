@@ -3,7 +3,6 @@
 function doubleOddNumbers(numbers) {
   return numbers.filter(x => x % 2 !== 0).map(x => x * 2);
 }
-
 const myNumbers = [1, 2, 3, 4];
 console.log(doubleOddNumbers(myNumbers));
 
